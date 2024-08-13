@@ -18,7 +18,7 @@ import OpenMenuMobile from "./OpenMenuMobile";
 const MenuUser = () => {
   return (
     <div className="w-full md:w-auto">
-      <nav className="md:hidden sticky top-0 flex w-full h-full border-b border-orange-500/60 p-2 justify-between">
+      <nav className="md:hidden sticky top-0 flex w-full h-full border-b border-orange-500/60 p-2 justify-between mx-auto">
         <div className="flex items-end gap-x-2">
           <span className="w-11 h-11 bg-orange-500 rounded-full p-2"></span>
           <div>
