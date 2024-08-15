@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={font.className}>
+      <body className={`${font.className} bg-orange-500`}>
         {children}
       </body>
     </html>

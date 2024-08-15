@@ -20,7 +20,7 @@ const OpenMenuMobile = () => {
     <div className="h-full flex items-center justify-center">
       <Sheet>
         <SheetTrigger>
-          <Menu className="w-8 h-8 cursor-pointer hover:opacity-75 transition-all duration-200" />
+          <Menu className="w-8 h-8 cursor-pointer hover:opacity-75 transition-all duration-200 text-white"/>
           <span className="sr-only">Abrir Menu</span>
         </SheetTrigger>
         <SheetContent>
